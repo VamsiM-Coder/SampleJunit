@@ -3,6 +3,20 @@ package org.example.calculator;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
 
+// JUnit is an open-source framework that allows developers to write and run repeatable tests in Java.
+// It's essential for unit testing, ensuring that individual pieces of code (usually methods) work correctly.
+// It provides annotations, assertions, and test runners to facilitate writing and executing tests efficiently.
+
+//@Test — Marks a method as a test.
+//
+//@BeforeEach — Code to run before each test.
+//
+//@AfterEach — Code to run after each test.
+//
+//@BeforeAll — Code to run once before all tests (static method).
+//
+//@AfterAll — Code to run once after all tests (static method).
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class CalculatorTesting {
 
