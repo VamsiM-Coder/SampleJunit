@@ -42,13 +42,13 @@ class CalculatorTesting {
     @Test
     void testSubtraction() {
         int result = calculator.subtract(5, 3);
-        assertEquals(2, result, "5 - 3 should be 2");
+        assertEquals(2, result);
     }
 
     @Test
     void testMultiplication() {
         int result = calculator.multiply(4, 3);
-        assertEquals(12, result, "4 * 3 should be 12");
+        assertEquals(12, result);
     }
 
     @Test
